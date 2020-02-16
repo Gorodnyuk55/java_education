@@ -10,7 +10,7 @@ package homework.beginner.basic;
 public class task1 {
     public static void main(String[] args) {
         String userName = "Maxim";
-        int userAge = 28;
+        int userAge = 26;
 
         System.out.println(userName);
         System.out.println(userAge);
