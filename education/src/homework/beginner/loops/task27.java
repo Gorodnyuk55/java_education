@@ -93,15 +93,23 @@ public class task27 {
             for (int j = 1; j <= 9; j++) {
 
                 if (i == j || i + j == 10) {
-                    System.out.print(i);
-                    System.out.print(" ");
+                    System.out.print( i );
+
                 } else System.out.print(" ");
             }
-
-            System.out.printf("\n");
+                 System.out.println();
             }
 
-
+        System.out.printf("\n");
+        System.out.println("Output 7");
+        for (int i = 9; i >= 1; i--) {
+            for (int j = 9; j >= 1; j--) {
+            if (i == j || i + j == 10){
+                System.out.print(i);}
+            else System.out.print(" ");
+            }
+            System.out.println();
+        }
 
 
 
