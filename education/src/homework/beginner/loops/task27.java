@@ -75,7 +75,7 @@ public class task27 {
 
         System.out.printf("\n");
 
-        System.out.println("Output 6");
+        System.out.println("Output 5");
         for (int i = 9; i >= 1; i--) {
             for (int j = 1; j < 10; j++) {
                 if (i == j ) {
@@ -88,7 +88,7 @@ public class task27 {
 
         System.out.printf("\n");
 
-        System.out.println("Output 7");
+        System.out.println("Output 6");
         for (int i = 1; i <= 9; i++) {
             for (int j = 1; j <= 9; j++) {
 
