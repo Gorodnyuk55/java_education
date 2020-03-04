@@ -17,7 +17,6 @@ public class task10 {
             k++;
             System.out.print(mass[i] + " ");
         }
-        System.out.println();
-        System.out.println(mass[0]);
+
     }
 }
