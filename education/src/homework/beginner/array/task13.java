@@ -1,5 +1,5 @@
 package homework.beginner.array;
-
+/*Write a program that convert a decompose 3459 into romanian numbers*/
 public class task13 {
     public static void main(String[] args) {
         int number = 3459;

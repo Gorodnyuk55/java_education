@@ -1,5 +1,5 @@
 package homework.beginner.array;
-
+/*Write a program that decompose a number 14367*/
 public class task12 {
     public static void main(String[] args) {
 
