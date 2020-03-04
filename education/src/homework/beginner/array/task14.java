@@ -18,7 +18,7 @@ public class task14 {
         }
 
         if (searchNumbeur == 5){
-            System.out.println("Array contains value 5");
+            System.out.println("Array1 contains value 5");
         }
         else System.out.println("Array NOT contains value 5");
 
