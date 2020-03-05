@@ -12,7 +12,7 @@ public class task12 {
 
 
         //для делителя (1- 1, 2- 10, 3-100, 4-1000)
-        for (int i = 1; i < count; i++) {
+               for (int i = 1; i < count; i++) {
             decomposeVar *=10;
         }
 

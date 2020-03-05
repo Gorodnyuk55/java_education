@@ -1,20 +1,23 @@
 package homework.beginner.array;
- /*Write a program that convert a number 167 into words*/
+
+import homework.beginner.utils.NumberUtils;
+
+/*Write a program that convert a number 167 into words*/
 public class task11 {
   public static void main(String[] args) {
    int number = 167;
 
 //создаем строковый массив и разделяем число на цифры
-   String[] mass = Integer.toString(number).split("");
+
 
 // перебираем все цифры в массиве
-   for (String strNumb : mass) {
+   for (int numb : NumberUtils.numberParser(number)) {
 
 
     //конвертируем в число
-    int numbNumb = Integer.parseInt(strNumb);
 
-    switch (numbNumb) {
+
+    switch (numb) {
      case 1:
       System.out.println("one");
       break;
