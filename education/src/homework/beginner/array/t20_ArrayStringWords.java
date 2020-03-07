@@ -12,13 +12,19 @@ public class t20_ArrayStringWords {
            System.out.println("Output 1");
 
             String [] arrayStringWords = {"arrays","string", "programming"};
-            String NewString = "";
 
-        for (int i = 0; i < arrayStringWords.length; i++) {
-            NewString += arrayStringWords[i] + " ";
+        for (String arrayStringWord : arrayStringWords) {
+            System.out.println(arrayStringWord);
         }
 
-        System.out.println(NewString);
+            /* String newString = "";
+
+
+        for (int i = 0; i < arrayStringWords.length; i++) {
+            newString += arrayStringWords[i] + " ";
+        }
+
+        System.out.println(newString);*/
 
 
         System.out.println("Output 2");
