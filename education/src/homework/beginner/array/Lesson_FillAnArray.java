@@ -2,7 +2,7 @@ package homework.beginner.array;
 
 import java.util.Arrays;
 
-public class FillAnArray {
+public class Lesson_FillAnArray {
     public static void main(String[] args) {
         int[] fillAnArray = new int[15];
         int center = fillAnArray.length / 2;

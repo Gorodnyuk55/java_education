@@ -6,7 +6,7 @@ import java.util.Arrays;
 /*Write program that print all elements on console from
  *the array of strings['arrays','string''programming']
  */
-public class t20_ArrayStringWords {
+public class t_20_ArrayStringWords {
     public static void main(String[] args) {
 
            System.out.println("Output 1");
