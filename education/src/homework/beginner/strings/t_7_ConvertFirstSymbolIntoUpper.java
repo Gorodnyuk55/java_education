@@ -7,7 +7,7 @@ import java.util.Objects;
 public class t_7_ConvertFirstSymbolIntoUpper {
         public static void main(String[] args) {
 
-            String defaultString = "Fire begins with sparks";
+            System.out.println();String defaultString = "Fire begins with sparks";
             System.out.println(defaultString);
 
 
@@ -21,13 +21,15 @@ public class t_7_ConvertFirstSymbolIntoUpper {
 
             for (int i = 0; i < array.length; i++) {
                if (array[i].equals(spaceVariable)){
-                array[i+1] = array[i+1].toUpperCase();}
+                array[i+1] = array[i+1].toUpperCase();
+               }
             }
             System.out.println(Arrays.toString(array));
 
 
             StringBuilder newString = new StringBuilder();
             for(int i = 0; i < array.length; i++) {
+
                 newString.append(array[i]);
             }
             System.out.println(newString);

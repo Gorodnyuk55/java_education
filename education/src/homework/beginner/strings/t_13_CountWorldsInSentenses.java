@@ -8,8 +8,6 @@ public class t_13_CountWorldsInSentenses {
          "because you  are    rarely writing original code' Dave Thomas  ";
 
         System.out.println(worldsCount(sentence));
-
-
     }
 
         private static int worldsCount(String sentence){
