@@ -12,16 +12,6 @@ import homework.beginner.utils.CharChangePositionSymbols;
           StringBuilder result = new StringBuilder();
 
           for (int i = 0; i < parseWord.length; i++) {
-              /*if (parseWord[i].length() == 1) {
-                  result.append(parseWord[i] + " ");
-                  continue;
-              }
-
-              if (parseWord[i].length() == 2) {
-                  result.append(new StringBuilder(parseWord[i]).reverse().toString() + " ");
-                  continue;
-              }*/
-
               char[] lettersIntoWorld = parseWord[i].toCharArray();
 
         /*     for (int j = 0; j < lettersIntoWorld.length; j += 2) {
@@ -36,7 +26,7 @@ import homework.beginner.utils.CharChangePositionSymbols;
 
               }*/
 
-          CharChangePositionSymbols.changePositionSymbols(lettersIntoWorld, 1, 2);
+          CharChangePositionSymbols.changePositionSymbols(lettersIntoWorld, 0, 1);
 
           result.append(lettersIntoWorld).append(" ");
 
