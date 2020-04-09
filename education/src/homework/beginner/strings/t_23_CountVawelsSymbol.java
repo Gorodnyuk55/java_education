@@ -13,10 +13,20 @@ public class t_23_CountVawelsSymbol {
          int count = 0;
 
          for (int i = 0; i < array.length; i++) {
-             if (array[i] == 'a' || array[i] == 'e' || array[i] == 'i' || array[i] == 'o' ||+
-                     + array[i] == 'u' || array[i] == 'y' ){
+            /* if (array[i] == 'a' || array[i] == 'e' || array[i] == 'i' || array[i] == 'o' ||
+                     array[i] == 'u' || array[i] == 'y' ){
                  count++;
-             }
+             }*/
+
+            switch (array[i]){
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                case 'y':
+                    count++;
+            }
 
          }
         System.out.print(count);

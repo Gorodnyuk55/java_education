@@ -7,8 +7,19 @@ package homework.beginner.strings;
  */
 
 public class t_22_LowercaseSymbols {
-    public static void main(String[] args) {
-        String sentence = "JHGJHGhjgHGUY GUY SJJKhjhkjUIUIHJhjhKJHGK";
-    }
+
+
+        public static void main(String[] args) {
+            String sentence = "JHGJHGhjgHGUY GUY SJJKhjhkjUIUIHJhjhKJHGK";
+            char [] array = sentence.toCharArray();
+            int count = 0;
+
+            for (char symbol : array) {
+                if (symbol == Character.toLowerCase(symbol)){
+                    count++;
+                }
+            }
+            System.out.println(count);
+        }
 
 }
