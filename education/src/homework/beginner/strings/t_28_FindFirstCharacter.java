@@ -2,8 +2,8 @@ package homework.beginner.strings;
 /*
  * @author Maxim Gorodnyuk
  *
- * A programming language is for thinking about programs; not for expressing
- * programs you0ve already thought of: It should be a pencil; not a pen
+ *
+ * Write a program that find index of the rst occurrence of character 'f ' in string
  *
  */
 

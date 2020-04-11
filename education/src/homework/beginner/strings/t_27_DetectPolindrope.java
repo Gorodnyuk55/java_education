@@ -2,7 +2,7 @@ package homework.beginner.strings;
 /*
  * @author Maxim Gorodnyuk
  *
- *
+ * Write a program that detect if string is a palindrome
  *
  */
 
@@ -24,7 +24,8 @@ public class t_27_DetectPolindrope {
     }
 
     public static boolean isPolindrope (String word){
-       char [] array = word.toCharArray();
+        return word.equalsIgnoreCase(new StringBuilder(word).reverse().toString());
+      /* char [] array = word.toCharArray();
        StringBuilder str = new StringBuilder();
 
         for (int i = array.length-1; i >= 0; i--) {
@@ -37,7 +38,7 @@ public class t_27_DetectPolindrope {
             return true;
         }
         else return false;
-
+*/
 
 
     }
