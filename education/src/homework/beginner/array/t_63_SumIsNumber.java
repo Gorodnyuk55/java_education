@@ -34,7 +34,7 @@ public class t_63_SumIsNumber {
 
             if (array[numberLeftIndex] + array[numberRightIndex] == summa) {
                 System.out.println("we have two elements the amount which is equal " + summa
-                        + ": " +array[numberLeftIndex] + " and " + array[numberRightIndex]);
+                        + ": " +array[numberLeftIndex]  + " and " + array[numberRightIndex]);
                 return true;
 
             } else if (array[numberLeftIndex] + array[numberRightIndex] < summa) {
