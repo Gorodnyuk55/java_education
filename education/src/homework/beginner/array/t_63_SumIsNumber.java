@@ -10,7 +10,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class t_63_SumIsNumber {
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
 
         int[] array = {1, 3, 4, 4, 5, 1};
         int firstNumberInArray = 0;
